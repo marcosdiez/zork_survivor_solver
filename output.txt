@@ -1,21 +1,22 @@
 Return to Zork Survivor's Solver.
 
-Survivor is a game for two players, played after The Great Diffusion.
-The players play as either Wizard Trembyle or Canuk.
-The Wizard must move on square back or forward in one direction, and two in the other.
-When the Wizard moves off a square it caves in, forming a pit.
-Canuk can move to any unoccupied square on the board.
-The object of the game for the Wizard is to make all the squares pits apart from the two occupied squares.
-The object for Canuk is to force the Wizard to move into a pit.
-The Wizard may,however, pass his movement turn.
-
-Source: http://zork.wikia.com/wiki/Survivor
+It's called Survivor, in ownor of Wizard Trembyle and Canuk.
+The only two survivors of The Great Diffusion.
+That happend over 400 years ago.
+You've got 16 squares.
+I play the Wizard and you can play the Canuk.
+So the wizard has got to move one square strait and one square diagonal in each move.
+It can move diagonal first and strait afterwards.
+It doesn't matter.
+And the moment the Wizard moves off a square, it caves in and forms a pit.
+Now Canuk can jump to any unoccupied square and far sure to move into a pit and he's won.
+And the object is to have all the squares turned into pits, except the one you will be sitting on.
+That takes strategy.
 
 The numbers shows the order of squares that the Wizard should pick.
 The Wizard starts on square 1.
-Square 0 is where the Canuk will be in the end of the game.
-
 Square 15 is where the Wizard will be in the end of the game.
+Square 0 is where the Canuk will be in the end of the game.
 
 Board Size: [4]
 [Point: X: 0, Y: 0]
