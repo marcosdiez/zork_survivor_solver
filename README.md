@@ -1,6 +1,6 @@
 Return Of Zork's Survivor Solver
 
-It's called Survivor, in ownor of Wizard Trembyle and Canuk.
+It's called Survivor, in honor of Wizard Trembyle and Canuk.
 The only two survivors of The Great Diffusion.
 That happend over 400 years ago.
 You've got 16 squares.

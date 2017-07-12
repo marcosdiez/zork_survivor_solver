@@ -20,7 +20,7 @@ func navigate(sb SurvivorBoard, point *SurvivorPoint) {
 func main() {
 	fmt.Printf("Return to Zork Survivor's Solver.\n\n")
 
-	fmt.Printf("It's called Survivor, in ownor of Wizard Trembyle and Canuk.\n" +
+	fmt.Printf("It's called Survivor, in honor of Wizard Trembyle and Canuk.\n" +
 		"The only two survivors of The Great Diffusion.\n" +
 		"That happend over 400 years ago.\n" +
 		"You've got 16 squares.\n" +
