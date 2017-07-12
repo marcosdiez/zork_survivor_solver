@@ -4,16 +4,25 @@ import "fmt"
 
 const boardSize = 4
 
+var numUnsuccessfullAttempts int
+var numSuccessfullAttempts int
+
 func navigate(sb SurvivorBoard, point *SurvivorPoint) {
 	sb.step++
 	sb.Board[point.X][point.Y] = sb.step
 	if sb.step == ((boardSize * boardSize) - 1) {
+		numSuccessfullAttempts++
 		fmt.Println(&sb)
 		return
 	}
 	as := sb.AvailableSteps(point)
-	for _, step := range as.points {
-		navigate(sb, step)
+
+	if as.Length() == 0 {
+		numUnsuccessfullAttempts++
+	} else {
+		for _, step := range as.points {
+			navigate(sb, step)
+		}
 	}
 }
 
@@ -45,4 +54,5 @@ func main() {
 	point, _ := NewSurvivorPoint(0, 0)
 	fmt.Println(point)
 	navigate(*sb, point)
+	fmt.Printf("Total: %v answers and %v unsuccesful attempts\n", numSuccessfullAttempts, numUnsuccessfullAttempts)
 }
