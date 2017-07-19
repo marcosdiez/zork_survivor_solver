@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // SurvivorBoard is a a standard Return To Zork's Survival board, with 4x4 squares
 type SurvivorBoard struct {
